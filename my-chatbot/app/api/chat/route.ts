@@ -13,8 +13,7 @@ let pdfText: string | null = null;
 
 async function getPdfText(): Promise<string> {
   if (pdfText) return pdfText;
-  // process.cwd() = my-chatbot 폴더, 한 단계 위의 docs 폴더 참조
-  const pdfPath = path.resolve(process.cwd(), "..", "docs", "근로기준법(법률)(제20520호)(20250223).pdf");
+  const pdfPath = path.join(process.cwd(), "public", "labor-law.pdf");
   const buf = fs.readFileSync(pdfPath);
   const data = await pdfParse(buf);
   pdfText = data.text;
