@@ -7,7 +7,12 @@
       "Bash(npm list *)",
       "Bash(node -e ' *)",
       "Bash(npm uninstall *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(git status *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(vercel *)"
     ]
   }
 }
