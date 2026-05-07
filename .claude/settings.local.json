@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\student\\\\Desktop\\\\0507\\\\my-pdf-chatbot\\\\my-chatbot\\\\app\\\\api\\\\chat\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\student\\\\Desktop\\\\0507\\\\my-pdf-chatbot\\\\my-chatbot\\\\components\")",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(node -e ' *)",
+      "Bash(npm uninstall *)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
