@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 const openai = new OpenAI({
-  apiKey: process.env.SAMBANOVA_API_KEY,
+  apiKey: process.env.SAMBANOVA_API_KEY || "dummy",
   baseURL: "https://api.sambanova.ai/v1",
 });
 
